@@ -1,0 +1,19 @@
+ДЗ:
+- Реалізувати віджет погоди
+За допомогою ajax-запиту вивести погоду  
+http://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19 
+де
+temp - температура
+pressure - тиск
+description - опис
+humidity - вологість
+speed - швидкість вітру
+deg - напрям в градусах
+icon - іконка, де 10d код іконки
+http://openweathermap.org/img/w/10d.png
+документація
+https://openweathermap.org/current 
+
+- Реалізувати лічильник для всіх товарів
+
+* Встановити nodejs https://nodejs.org/en 18.16.1

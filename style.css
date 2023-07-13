@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.weather-organaizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #65b0ff95;
+  font-size: 20px;
+}
