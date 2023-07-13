@@ -9,7 +9,7 @@ let icon; // ------ іконка, де 10d код іконки
 let city = prompt("Введіть своє місто, щоб дізнатись погоду:", "Kyiv");
 
 fetch(
-  `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=5d066958a60d315387d9492393935c19`
+  `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=5d066958a60d315387d9492393935c19`
 )
   .then((response) => response.json())
   .then((data) => {
